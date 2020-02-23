@@ -23,8 +23,20 @@ height: 669px;
 #whatWeDoSection {
   text-align: center;
 }
-.col-md-3 {
+.floatCaption {
   padding-bottom: 25px;
+  cursor: pointer;
+  ;
+}
+.floatCaption .imageCaption {
+  display: none;
+  opacity: 0.8;
+  background: black;
+  color: white;
+  width: 290px;
+  position: absolute;
+  bottom: 25px;
+  padding: 5px;
 }
 .contactUsSection {
   background-image: url('../images/assets/backgrounds/c_image.jpg');
@@ -49,4 +61,35 @@ height: 669px;
   color: white;
   padding-bottom: 270px;
 }
-  
+.hideDesign{
+  display: none;
+}
+.hideDevelopment{
+  display: none;
+}
+.hideProduct{
+  display: none;
+}
+.designIcon{
+  cursor: pointer;
+  transition: transform .5s ease; 
+  overflow: hidden;
+}
+.developmentIcon{
+  cursor: pointer;
+  transition: transform .5s ease; 
+  overflow: hidden;
+}
+.productIcon{
+  cursor: pointer;
+  transition: transform .5s ease; 
+  overflow: hidden;
+}
+.zoom:hover{
+  transform: scale(1.1);
+}
+h6{
+  transition: transform .5s ease; 
+  overflow: hidden;
+  cursor: pointer;
+}
