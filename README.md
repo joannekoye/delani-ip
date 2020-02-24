@@ -8,7 +8,7 @@ It is a website portfolio of a design studio that enables the visitors to inerac
 * Email address
 * Web browser
 ## Known Bugs
-The captions on portfolio images are not totally fluid.
+The captions on portfolio images are not totally responsive.
 ## Technologies Used
 HTML, CSS, JavaSript, Jquery and Bootstrap. Mailchimp API.
 ## Support and contact details
