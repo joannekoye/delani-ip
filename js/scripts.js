@@ -31,7 +31,7 @@ $(document).ready(function() {
       alert("Please enter a valid email address");
     }
     else{
-      alert("Dear " + name + ", we have received your message. Thank you for contacting us.");
+      alert("Dear " + name + ", your message has been sent successfully. Thank you for contacting us.");
     }
   });
   $("#button").on ('click',function() {
