@@ -33,9 +33,11 @@ $(document).ready(function() {
     else{
       alert("Dear " + name + ", we have received your message. Thank you for contacting us.");
     }
-  }); 
+  });
+  $("#button").on ('click',function() {
+    $('form').each(function(){
+    this.reset();
+  })
+}) 
 });
-
-
-
 
