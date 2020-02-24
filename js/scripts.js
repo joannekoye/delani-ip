@@ -15,7 +15,7 @@ $(document).ready(function() {
     $(".hideProduct").slideToggle();
   }); 
 
-  $("#button").click(function(event) {
+  $("form#form").submit(function(event) {
     event.preventDefault();
     var name=document.getElementById('name').value;
     var email= document.getElementById('email').value;
@@ -34,7 +34,7 @@ $(document).ready(function() {
       alert("Dear " + name + ", your message has been sent successfully. Thank you for contacting us.");
     }
   });
-  $("#button").on ('click',function() {
+  $("form#form").on ('submit',function() {
     $('form').each(function(){
     this.reset();
   })
